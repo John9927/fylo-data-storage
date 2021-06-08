@@ -154,3 +154,34 @@
   background: url("./../../assets/images/bg-desktop.png") no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    height: 400px;
+  }
+
+  .master__fylo {
+    flex-direction: column;
+    width: 95%;
+    margin: 0px auto;
+  }
+
+  .container__fylo {
+    width: 75%;
+  }
+
+  .container__storage {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .data-progress-bar-percent::after {
+    width: 8px;
+    height: 8px;
+    right: 2px;
+    top: 0.5px;
+  }
+}
