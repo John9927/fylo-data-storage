@@ -173,6 +173,10 @@
     height: 400px;
   }
 
+  .container__label {
+    height: 60%;
+  }
+
   .master__fylo {
     flex-direction: column;
     width: 90%;
@@ -194,6 +198,7 @@
 
   .data-progress-bar {
     padding: 2px;
+    height: 10px;
   }
 
   .data-progress-bar-percent::after {
