@@ -2,8 +2,6 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  align-content: center;
-  justify-content: center;
 }
 
 .container {
@@ -12,7 +10,6 @@
   width: 930px;
   margin: auto;
   height: 200px;
-  background: transparent;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -40,7 +37,6 @@
 .container__items {
   display: flex;
   width: 100%;
-  align-items: center;
   margin-top: 9px;
 }
 
@@ -50,9 +46,6 @@
   width: 50px;
   margin-right: 15px;
   border-radius: 12px;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   height: 100%;
   cursor: pointer;
 }
