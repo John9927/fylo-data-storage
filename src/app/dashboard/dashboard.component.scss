@@ -184,4 +184,10 @@
     right: 2px;
     top: 0.5px;
   }
+
+  .image {
+    background: url('./../../assets/images/bg-mobile.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
 }
