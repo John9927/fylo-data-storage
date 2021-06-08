@@ -192,11 +192,15 @@
     height: 8px;
   }
 
+  .data-progress-bar {
+    padding: 4px;
+  }
+
   .data-progress-bar-percent::after {
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     right: 2px;
-    top: 0px;
+    top: 1px;
   }
 
   .image {
