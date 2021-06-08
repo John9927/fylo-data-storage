@@ -115,6 +115,7 @@
     hsl(335, 100%, 65%) 100%
   );
   border-radius: 10px;
+  animation: 3s ease 0s progress;
 }
 
 .data-progress-bar-percent::after {
