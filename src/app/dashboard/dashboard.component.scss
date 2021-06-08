@@ -115,7 +115,7 @@
     hsl(335, 100%, 65%) 100%
   );
   border-radius: 10px;
-  animation: 3s ease 0s progress;
+  animation: progress 3s ease-in-out;
 }
 
 .data-progress-bar-percent::after {
@@ -155,6 +155,16 @@
   background-size: cover;
 }
 
+@keyframes progress {
+  0% {
+    width: 3%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .container {
     flex-direction: column;
@@ -186,7 +196,7 @@
   }
 
   .image {
-    background: url('./../../assets/images/bg-mobile.png') no-repeat;
+    background: url("./../../assets/images/bg-mobile.png") no-repeat;
     background-size: cover;
     height: 100vh;
   }
